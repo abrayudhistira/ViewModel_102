@@ -57,6 +57,19 @@ fun FormulirView(
                 .padding(5.dp)
 
         )
+        TextField(
+            value = nim,
+            onValueChange = { nim = it },
+            label = {
+                Text("NIM")
+            },
+            placeholder = {
+                Text("Isi NIM Anda")
+            },
+            modifier = modifier.fillMaxWidth()
+                .padding(5.dp)
+
+        )
         Row (
             modifier = Modifier.fillMaxWidth()) {       //mengganti variabel modifier dengan Modifier
             listJK.forEach{ selectedGender ->
