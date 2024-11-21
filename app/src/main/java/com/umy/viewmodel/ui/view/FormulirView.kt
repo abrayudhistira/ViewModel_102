@@ -38,7 +38,7 @@ fun FormulirView(
     var notelpon by remember { mutableStateOf("") }
     var gender by remember { mutableStateOf("") }
 
-    val listData : MutableList<String> = mutableListOf(nama,gender,alamat,notelpon)
+    val listData : MutableList<String> = mutableListOf(nama,nim,gender,email,alamat,notelpon)
     Column(
         modifier = Modifier.fillMaxSize()
             .padding(16.dp),
