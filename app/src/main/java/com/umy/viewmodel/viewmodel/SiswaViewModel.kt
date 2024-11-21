@@ -20,6 +20,7 @@ class SiswaViewModel : ViewModel() {
                 nama = ls[0],
                 nim = ls[1],
                 gender = ls[3],
+                email = ls[3],
                 alamat = ls[2],
                 notelpon = ls[4],
             )
