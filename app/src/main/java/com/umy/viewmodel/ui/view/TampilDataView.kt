@@ -25,6 +25,7 @@ fun TampilDataView(
         TampilData(param = "Nama", argu = uiState.nama)
         TampilData(param = "NIM", argu = uiState.nama)
         TampilData(param = "Jenis Kelamin", argu = uiState.gender)
+        TampilData(param = "Email", argu = uiState.email)
         TampilData(param = "Alamat", argu = uiState.alamat)
         TampilData(param = "Nomor Telpon", argu = uiState.notelpon)
 
